@@ -49,7 +49,7 @@ const UserShema = new mongoose.Schema({
         type:String,
         max:50
     },
-    form:{
+    from:{
         type:String,
         max:50
     },

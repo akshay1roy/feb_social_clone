@@ -1,15 +1,24 @@
 
-import React from 'react'
+import React, { useContext } from 'react'
 import './topbar.css'
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import ChatIcon from '@mui/icons-material/Chat';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import { Link } from "react-router-dom"
+import { AuthContext } from '../../context/AuthContext';
 function Topbar() {
+
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
+  const { user } = useContext(AuthContext)
+
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">FebSocial</span>
+        <Link to="/" style={{ textDecoration: "none" }} >
+          <span className="logo">FebSocial</span>
+        </Link>
+
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
@@ -24,25 +33,28 @@ function Topbar() {
         </div>
         <div className="tobarIcons">
           <div className="topbarIconItem">
-              <PersonIcon/>
-              <span className="tobarIconBadge">
-                1
-              </span>
+            <PersonIcon />
+            <span className="tobarIconBadge">
+              1
+            </span>
           </div>
           <div className="topbarIconItem">
-              <ChatIcon/>
-              <span className="tobarIconBadge">
-                2
-              </span>
+            <ChatIcon />
+            <span className="tobarIconBadge">
+              2
+            </span>
           </div>
           <div className="topbarIconItem">
-              <NotificationsIcon/>
-              <span className="tobarIconBadge">
-                12
-              </span>
+            <NotificationsIcon />
+            <span className="tobarIconBadge">
+              12
+            </span>
           </div>
         </div>
-        <img src="/assets/person/first.jpeg" alt="" className='topbarImg' />
+        <Link to={`/profile/${user.username}`}>
+          <img src={user.profilePicture ? PF + user.profilePicture : PF + "/person/profiles.jpg"} alt="" className='topbarImg' />
+
+        </Link>
       </div>
     </div>
   )

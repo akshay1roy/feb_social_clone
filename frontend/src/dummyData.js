@@ -1,52 +1,52 @@
 export const Users=[
     {
         id:1,
-        ProfilePicture:"assets/person/first.jpeg",
+        ProfilePicture:"person/first.jpeg",
         username:"Shubham kumar",
     },
     {
         id:2,
-        ProfilePicture:"assets/person/second.jpeg",
+        ProfilePicture:"person/second.jpeg",
         username:"Akshay kumar",
     },
     {
         id:3,
-        ProfilePicture:"assets/person/third.jpeg",
+        ProfilePicture:"person/third.jpeg",
         username:"Aman kumar",
     },
     {
         id:4,
-        ProfilePicture:"assets/person/fourth.jpeg",
+        ProfilePicture:"person/fourth.jpeg",
         username:"Raj yadav",
     },
     {
         id:5,
-        ProfilePicture:"assets/person/fifth.jpeg",
+        ProfilePicture:"person/fifth.jpeg",
         username:"sonu Roy",
     },
     {
         id:6,
-        ProfilePicture:"assets/person/six.jpeg",
+        ProfilePicture:"person/six.jpeg",
         username:"Amit kumar",
     },
     {
         id:7,
-        ProfilePicture:"assets/person/seven.jpeg",
+        ProfilePicture:"person/seven.jpeg",
         username:"Karan kumar",
     },
     {
         id:8,
-        ProfilePicture:"assets/person/eight.jpeg",
+        ProfilePicture:"person/eight.jpeg",
         username:"Omparkash kumar",
     },
     {
         id:9,
-        ProfilePicture:"assets/person/nine.jpeg",
+        ProfilePicture:"person/nine.jpeg",
         username:"Mohan kumar",
     },
     {
         id:10,
-        ProfilePicture:"assets/person/six.jpeg",
+        ProfilePicture:"person/six.jpeg",
         username:"Vivek kumar",
     },
 
@@ -56,7 +56,7 @@ export const Posts=[
     {
         id:1,
         desc:"Love for all , Hatred for none",
-        photo:"assets/post/first.jpeg",
+        photo:"post/first.jpeg",
         date:"5 min ago",
         userId:1,
         like:32,
@@ -65,7 +65,7 @@ export const Posts=[
     {
         id:2,
         desc:"Honesty is the best.",
-        photo:"assets/post/second.jpeg",
+        photo:"post/second.jpeg",
         date:"45 min ago",
         userId:2,
         like:42,
@@ -74,7 +74,7 @@ export const Posts=[
     {
         id:3,
         desc:"Hello world welcome",
-        photo:"assets/post/third.jpeg",
+        photo:"post/third.jpeg",
         date:"5 min ago",
         userId:3,
         like:68,
@@ -83,7 +83,7 @@ export const Posts=[
     {
         id:4,
         desc:"Happy Dewali ",
-        photo:"assets/post/fourth.jpeg",
+        photo:"post/fourth.jpeg",
         date:"45 min ago",
         userId:4,
         like:73,
@@ -92,7 +92,7 @@ export const Posts=[
     {
         id:5,
         desc:"Every one is happy , i wish",
-        photo:"assets/post/ten.jpeg",
+        photo:"post/ten.jpeg",
         date:"47 min ago",
         userId:5,
         like:53,
@@ -101,7 +101,7 @@ export const Posts=[
     {
         id:6,
         desc:"Love for all , Hatred for none",
-        photo:"assets/post/six.jpeg",
+        photo:"post/six.jpeg",
         date:"25 min ago",
         userId:6,
         like:232,
@@ -110,7 +110,7 @@ export const Posts=[
     {
         id:7,
         desc:"Love  for all",
-        photo:"assets/post/seven.jpeg",
+        photo:"post/seven.jpeg",
         date:"5 min ago",
         userId:7,
         like:323,
@@ -119,7 +119,7 @@ export const Posts=[
     {
         id:8,
         desc:"Make the world happy",
-        photo:"assets/post/first.jpeg",
+        photo:"post/first.jpeg",
         date:"45 min ago",
         userId:8,
         like:62,
@@ -128,7 +128,7 @@ export const Posts=[
     {
         id:9,
         desc:"Explore Everthings !! ",
-        photo:"assets/post/third.jpeg",
+        photo:"post/third.jpeg",
         date:"45 min ago",
         userId:9,
         like:142,
@@ -137,7 +137,7 @@ export const Posts=[
     {
         id:10,
         desc:"Welcome my love ",
-        photo:"assets/post/seven.jpeg",
+        photo:"post/seven.jpeg",
         date:"45 min ago",
         userId:10,
         like:352,
