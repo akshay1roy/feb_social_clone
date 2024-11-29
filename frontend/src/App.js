@@ -18,6 +18,8 @@ function App() {
 
   const { user } = useContext(AuthContext)
 
+  // user=null;
+
   return (
     <BrowserRouter>
       <Routes>
